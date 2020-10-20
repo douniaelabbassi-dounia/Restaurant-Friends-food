@@ -7,10 +7,10 @@ This restaurant is the idea of the future project, and I hope that God will help
 ##### _Contact us: Through this page, the customer can send his opinion about the restaurant or share his picture in case he visited the restaurant before.
 ##### _About us: This page contains a group of information about the restaurant
 ## Accueil page :
-This page conatins a animation picture
+This page contains an animation picture
 ![image](https://user-images.githubusercontent.com/71852847/96617532-aa688580-12fb-11eb-99c4-aa2fa52c7f77.png)
 ## some Menu page:
-This page conatins a animation picture
+This page contains an animation picture
 ![image](https://user-images.githubusercontent.com/71852847/96621150-2ebd0780-1300-11eb-807c-ec5b28739493.png)
 ![image](https://user-images.githubusercontent.com/71852847/96619533-3380bc00-12fe-11eb-820f-f18794e37337.png)
 ## Reservation page :
