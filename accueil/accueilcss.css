@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+     background-image:url(contact.jpg);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+	 width:100% ;
+	 background : black ; 
+	 overflow : auto ;
+	 display: inline;}
+	 .b{
+	 padding : 0;
+	 margin : 0 0 0 150px;
+	 list-style : none ;
+	 display: inline;
+	 }
+	 
+
+	 li{
+	 float : left ;
+	 }
+	 .navbar {
+	 position : absolute ;
+	 margin-top : 	15px;
+     margin-left : 10px;
+     display : flex ;
+      	 
+	 }
+	 nav a{
+	 width : 200px ; 
+	 display : block ; 
+	 padding : 33px;
+     font-family : arial ; 
+     color : white ; 
+      text-align :  left-side ;
+     text-decoration:none;	  
+	 }
+	  nav a:hover {
+	  background : #BC8F8F ;
+	  transition : 0.5px ;
+	  text-transform : uppercase ;}
+	  .footer {
+  background: black;
+  padding: 70px;
+  color : white;
+  
+}
+
+div.title-box {
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    padding: 50px;
+    top: 180px;
+    box-shadow: -13px 13px 2px 1px rgba(0, 0, 0, .2);
+}
+
+header h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+header p {
+    font-size: 25px;
+    text-align: center;
+}
+
+header h1, header p, li {
+    font-family: 'Kenia', cursive;
+}
+
+/* slider */
+
+.slider {
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: calc(500px * 2.9);
+    height: 500px;
+    animation: glisse 15s infinite ease;
+}
+
+.slide {
+    opacity: 1;
+}
+
+@keyframes glisse{
+
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-500px);
+    }
+
+    66% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+}
+section {
+	display:flex;
+	
+}
+section .pos1{
+	background-image:url(1.png);
+	
+}
+footer  {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    font-family: 'Martel', serif;
+text-align:100px;
+color:#BC8F8F;
+}
